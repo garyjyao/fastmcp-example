@@ -8,8 +8,8 @@ This repository demonstrates a simple MCP (Model Control Protocol) implementatio
 - `fastmcp_math_client.py` – Client that connects to the math server, lists tools, and calls `add`.  
 - `greet_mcp_server.py` – MCP server that greets users.  
 - `greet_mcp_client.py` – Client that calls the greeting service.  
-- `main.py` – Example entry point that demonstrates calling the math server.  
-- `test_main.http` – HTTP test definition for the server.
+- `main.py` – Example entry point that demonstrates FastAPI, which can be used to wrap up FastMCP server.  
+- `test_main.http` – HTTP test definition for the FastAPI server.
 
 ## Running the Server
 
